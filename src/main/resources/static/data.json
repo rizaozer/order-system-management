@@ -1,0 +1,30 @@
+{
+  "customers" : [
+    {
+      "id": 2,
+      "registrationCode": "1231",
+      "fullName": "G R",
+      "email": "123@ads.c",
+      "phoneNumber": "213"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "p1",
+      "skuCode": 1234,
+      "unitPrice": 123.54
+    }
+  ],
+  "orders": [
+    {
+      "customerId": 2,
+      "orderLines": [
+        {
+          "quantity": 2,
+          "productId": 1
+        }
+      ]
+    }
+  ]
+}
